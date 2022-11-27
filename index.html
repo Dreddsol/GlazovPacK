@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Глазов пак</title>
     <link rel="stylesheet" href="css/style.css">
-   </head>
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+</head>
 <body>
   <header class="header">
       <div class="wrapper_container">
@@ -39,7 +41,7 @@
                      </div>
                      <div class="btn_link">
                        <a href="#" class="header_link">Мои заказы</a>
-                       <span class="icon">12</span>
+                       <span class="sale-btn_icon">12</span>
                      </div>
                   </div>
                </nav>
@@ -61,15 +63,57 @@
    </header>
    <main class="main">
       <section class="intro">
-
+         <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">ПРОИЗВОДСТВО УПАКОВКИ<br>
+               ПОЛНОГО ЦИКЛА В РОССИИ</div>
+              <div class="swiper-slide">ГЛАЗОВПАК сегодня - это полиграфический комплекс,<br> специализирующийся на 
+               изготовлении кашированной и картонной<br> упаковки по индивидуальным заказам.</div>
+              
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+      </section> 
+    
+      <section class="item_icon">
+         <div class="wrapper_container">
+               <div class="etaps">
+                  <h1 class="text_block">Этапы Производства</h1>
+               </div>
+               <div class="icon_block">
+                  <div class="icon1">
+                     <img src="./image/иконки/1.svg">
+                  </div>
+                  <div class="icon2">
+                     <img src="./image/иконки/icon_02 1.svg">
+                  </div>
+                  <div class="icon3">
+                     <img src="./image/иконки/icon_03 1.svg">
+                  </div>
+                  <div class="icon4">
+                     <img src="./image/иконки/icon_04 1.svg">
+                  </div>
+               </div>
+         </div>
       </section>
-   </main>
-      
+   
+   
+   
+   
+   </main> 
+
       
         
       
       
-   
-    
+ 
+     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+      <script>
+      var swiper = new Swiper(".mySwiper", {
+     pagination: {
+       el: ".swiper-pagination",
+     },
+       });
+     </script>
 </body>
 </html>

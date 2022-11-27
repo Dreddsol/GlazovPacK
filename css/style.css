@@ -48,6 +48,7 @@ body{
   left: 0;
   width: 100%;
   position: absolute;
+  z-index: 2;
 
 }
 .header_wrapper{
@@ -102,7 +103,7 @@ body{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-left: 126px;
+  margin-left: 212px;
 
 }
 .header_link{
@@ -113,7 +114,7 @@ body{
   margin-right:11.5px ;
 
 }
-.icon{
+.sale-btn_icon{
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
@@ -159,9 +160,115 @@ line-height: 25px;
   padding-left: 500px;
 }
 /*Главный экран*/
-.intro{
+.intro {
   height: 100vh;
   background:url(../image/Главный\ экран.png) no-repeat center;
   background-size: cover;
-
 }
+html,
+      body {
+        
+        height: 100%;
+      }
+
+      body {
+        
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background:url(../image/Главный\ экран.png) no-repeat;
+        background-size: cover;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        color: #FFFFFF;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 49px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+ /*2 блок*/
+ .item_icon{
+ max-width: 100%;
+ height: 517px;
+ background-image: url(../image/Rectangle\ 4.jpg);
+ background-size: cover;
+position: relative;
+ }    
+ .text_block{
+  margin-top: 0px;
+color: #FFFFFF;
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 49px;
+text-align: center;
+text-transform: uppercase;
+padding-top: 90px;
+}
+.icon_block{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 160px;
+}
+.icon_block::before{
+  content: '';
+    z-index: 0;
+    position: absolute;
+    top: 80px;
+    left: 158px;
+    width: 200px;
+    height: 1px;
+    background-color: silver
+}
+.icon1, 
+.icon2,
+.icon3,
+.icon4{
+  background: #31312D;
+  border: 1px solid #C4C4C4;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 95px;
+  width: 160px;
+  height: 160px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
