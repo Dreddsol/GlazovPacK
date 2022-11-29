@@ -250,11 +250,12 @@ padding-top: 90px;
   content: '';
     z-index: 0;
     position: absolute;
-    top: 80px;
-    left: 158px;
-    width: 200px;
+     width: 200px;
     height: 1px;
     background-color: silver
+}
+.icon_block::after{
+  
 }
 .icon1, 
 .icon2,
@@ -271,4 +272,11 @@ padding-top: 90px;
   justify-content: center;
   align-items: center;
 }
-
+.block_text{
+  display: flex;
+  justify-content: space-between;
+}
+.block_text-title{
+  color: #fff;
+  text-transform: uppercase;
+}
