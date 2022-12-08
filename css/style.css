@@ -230,9 +230,9 @@ html,
 position: relative;
  }    
  .text_block{
-  margin-top: 0px;
+margin-top: 0px;
 color: #FFFFFF;
-  font-family: 'Open Sans';
+font-family: 'Open Sans';
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -245,15 +245,6 @@ padding-top: 90px;
   display: flex;
   justify-content: space-around;
   margin-top: 65px;
-}
-.icon_block::before{
-  content: '';
-    z-index: 2;
-    position: absolute;
-    width: 138px;
-    height: 1px;
-    background-color: silver;
-    bottom: 314px;
 }
 .icon1, 
 .icon2,
@@ -269,25 +260,9 @@ padding-top: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
-.icon1::before{
-  content: "";
-  height: 1px;
-  width: 136px;
-  background-color: silver;
-  z-index: 1;
-  position: absolute;
-  left: 433px;
-}
-.icon4::after{
-  content: '';
-  background-color: silver;
-  height: 1px;
-  width: 136px;
-  position: absolute;
-  right: 433px;
 
-}
 .block_text{
   display: flex;
   justify-content: space-around;
@@ -314,10 +289,72 @@ text-align: center;
 color: #000000;
 }
 .box_one{
-  width: 291px;
-  height: 335px;
-  border-radius: 7px;
+width: 291px;
+height: 335px;
+border-radius: 7px;
+background: #FFFFFF;
+box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+border-radius: 7px;
 }
+.box1,
+.box2,
+.box3,
+.box4{
+  display: block;
+  margin: 0 auto;
+}
+.boxName{
+  text-align: center;
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+padding-bottom: 40px;
+}
+.btn_click{
+  background: #EC6563;
+  border: #EC6563;
+border-radius: 50px;
+width: 132px;
+height: 29px;
+}
+.btn_click a{
+text-decoration: none;
+color: #fff;
+}
+
 .box_slider{
   display: flex;
+}
+.textdown{
+  margin-left: 21px;
+  padding-top: 5px;
+}
+.textdown a{
+  text-decoration: none;
+  color:#1D1D1B;
+}
+.text_block_item{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.line{
+  width: 100%;
+  border: 3px solid #E5E5E5;;
+}
+/*4БЛок*/
+.text_information{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+
+color: #1D1D1B;
 }
