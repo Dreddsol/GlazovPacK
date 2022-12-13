@@ -358,3 +358,18 @@ line-height: 25px;
 
 color: #1D1D1B;
 }
+.name_pack{
+background: #FFFFFF;
+border: 1px solid #C0C0C0;
+border-radius: 50px;
+width: 998px;
+height: 40px;
+}
+.btn_search{
+width: 180px;
+height: 40px;
+background: #EC6563;
+border-radius: 50px;
+color: #fff;
+border: none;
+}
