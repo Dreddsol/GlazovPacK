@@ -373,3 +373,11 @@ border-radius: 50px;
 color: #fff;
 border: none;
 }
+.spisok_text{
+  display: inline-block;
+
+}
+
+.tovar_portfolio{
+  display: flex;
+}
