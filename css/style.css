@@ -416,6 +416,9 @@ color: #1D1D1B;
   line-height: 50px;
 }
 /*5Блок*/
+.contacts{
+  margin-bottom: 100px;
+}
 .contacts_information{
   display: flex;
 }
@@ -468,17 +471,27 @@ line-height: 19px;
   border-radius: 50px;
 }
 /*6Блок*/
-.news_logo{
+.news_block{
   background: url(../image/fon_picture\ in\ bllock\ news.jpg);
   height: 548px;
-  width: 1440px;
+ max-width: 100%;
+ background-size: cover;
 }
 .logotip_text{
   text-align: center;
+  
 }
 .news_icon{
   display: flex;
   justify-content: space-around;
+  text-align: center;
+  margin-top: 60px;
+}
+.icon_title{
+font-weight: 700;
+font-size: 24px;
+color: #EC6563;
+margin-top: 55px;
 }
 
 /*Футер*/
