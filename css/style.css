@@ -416,9 +416,6 @@ color: #1D1D1B;
   line-height: 50px;
 }
 /*5Блок*/
-.contacts{
-  margin-bottom: 100px;
-}
 .contacts_information{
   display: flex;
 }
@@ -448,10 +445,8 @@ height: 400px;
 .map{
 position: absolute;
 right: 3px;
-padding: 20px;
 background: #fff;
-border: 1px solid #ddd;
-z-index: 10;
+z-index: 1;
 box-shadow: -2px 1px 24px 0px rgb(50 50 50);
 margin-top: 62px;
 height: 637px;
@@ -476,9 +471,11 @@ line-height: 19px;
   height: 548px;
  max-width: 100%;
  background-size: cover;
+ background-attachment: fixed;
 }
 .logotip_text{
   text-align: center;
+  margin-top: 0px;
   
 }
 .news_icon{
@@ -493,5 +490,36 @@ font-size: 24px;
 color: #EC6563;
 margin-top: 55px;
 }
-
+/*7БЛок*/
+.last_news{
+  height: 482px;
+}
+.news{
+  display: flex;
+  justify-content: space-around;
+}
+.end_news_text{
+font-weight: 700;
+font-size: 36px;
+line-height: 49px;
+color: #1D1D1B;
+}
+.news_one{
+  width: 301px;
+}
+.data_news{
+font-weight: 700;
+font-size: 36px;
+line-height: 49px;
+color: #D1D1D1;
+}
+.link_text_news{
+  color:#1D1D1B;
+  font-size: 14px;
+  text-decoration: none;
+}
 /*Футер*/
+.footer{
+  background:  #1D1D1B;
+  height: 471px;
+}
