@@ -473,6 +473,9 @@ line-height: 19px;
  background-size: cover;
  background-attachment: fixed;
 }
+.logotip{
+  padding-top: 100px;
+}
 .logotip_text{
   text-align: center;
   margin-top: 0px;
@@ -522,4 +525,28 @@ color: #D1D1D1;
 .footer{
   background:  #1D1D1B;
   height: 471px;
+}
+.footer_contact{
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #FFFFFF;
+list-style: none;
+}
+.contacts{
+  padding-left: 0;
+}
+.icon_socseti a {
+margin-right: 22px;
+width: 36px;
+height: 36px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+border: 1px solid #FFFFFF;
+border-radius: 50px;
+}
+.icon_socseti{
+  display: flex;
+  align-items: center;
 }
