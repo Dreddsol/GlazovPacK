@@ -550,3 +550,19 @@ border-radius: 50px;
   display: flex;
   align-items: center;
 }
+.make_studio{
+display: flex;
+align-items: center;
+padding-top: 20px;
+}
+.make_studio span{
+  color: #fff;
+}
+.flweb{
+  height: 32px;
+  padding-right: 20px;
+}
+.container_footer{
+  display: flex;
+  justify-content: space-around;
+}
