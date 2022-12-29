@@ -6,4 +6,20 @@ new Swiper(".mySwiper", {
     },
       });
       document.querySelector('swiper-pagination-bullet');
-      i
+    
+      new Swiper(".tovarSwiper", {
+        slidesPerView: 4,
+      spaceBetween: 0,
+      // init: false,
+     loop: true,
+     slidesPerGroup: 2,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          dinamicBullets:true,
+          
+        },
+          });
+              
+            
+          

@@ -163,6 +163,7 @@ line-height: 25px;
 .intro {
   height: 100vh;
   width: 100%;
+  
 }
 html,
 body {
@@ -207,8 +208,8 @@ font-weight: 400;
 font-size: 36px;
 line-height: 49px;
 position: absolute;
-margin-left: 335px;
-margin-top: 175px;
+margin-left: 300px;
+margin-top: 504px;
 }
 .swiper-slide img {
 display: block;
@@ -350,6 +351,24 @@ color: #fff;
   justify-content: space-around;
   margin-top: 50px;
 }
+.tovar_slide .swiper-wrapper{
+  padding-bottom: 35px;
+}
+.tovar_slide .swiper-slide img{
+height: auto;
+}
+.tovar_slide .swiper-pagination{
+  position: relative;
+  bottom: 0px;
+}
+.tovar_slide .swiper-pagination span{
+width: 16px;
+height: 16px;
+background-color: #EC6563;
+
+
+}
+
 .line{
   width: 100%;
   border: 3px solid #E5E5E5;;
@@ -378,6 +397,10 @@ background: #EC6563;
 border-radius: 50px;
 color: #fff;
 border: none;
+}
+.btn_search a{
+  text-decoration: none;
+color: #fff;
 }
 .form{
   margin-bottom: 41px;
